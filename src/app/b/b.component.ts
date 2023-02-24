@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'root-directive',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-b',
+  templateUrl: './b.component.html',
+  styleUrls: ['./b.component.css']
 })
-export class AppComponent {
+export class BComponent {
+
   title:string = 'my-first-app';
   name:string ='Olly';
   age:number = 21;
